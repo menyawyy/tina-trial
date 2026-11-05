@@ -1,0 +1,49 @@
+{
+  "title": "Z Bollard",
+  "title_ar": "عمود Z",
+  "year": "2025",
+  "client": "3 Brothers for Lighting · internship",
+  "category": "Outdoor lighting · Concept",
+  "role": "Product designer",
+  "summary": "An outdoor bollard shaped like a leaning Z. The LED sits in the top arm and lights the path below, and a wooden wedge anchors the base.",
+  "summary_ar": "عمود إنارة خارجي على شكل حرف Z مائل. مصباح LED في الذراع العلوية يضيء الممر تحته، وقطعة خشب مائلة تثبّت القاعدة.",
+  "cover": "/projects/z-bollard/cover.jpg",
+  "tags": [
+    "Lighting",
+    "CAD",
+    "Materials",
+    "Manufacturing",
+    "Rendering"
+  ],
+  "sections": [
+    {
+      "heading": "Context",
+      "body": "I designed this bollard during my internship at 3 Brothers for Lighting (Feb–May 2025), as part of my work on their outdoor lighting units. It stayed a concept and did not go into production.",
+      "images": []
+    },
+    {
+      "heading": "Built to be taken apart",
+      "body": "An aluminium body leans on a wooden wedge base. The CAD model is a full assembly of 9 parts and 17 standard ISO screws, so you can take it apart right here on the site.",
+      "images": [
+        {
+          "src": "/projects/z-bollard/exploded.jpg",
+          "caption": "The assembly taken apart, rendered from the CAD model"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/projects/z-bollard/studio.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/z-bollard/render-2.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/z-bollard/render-3.jpg",
+      "caption": ""
+    }
+  ]
+}

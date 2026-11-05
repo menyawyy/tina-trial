@@ -1,0 +1,81 @@
+{
+  "title": "Trot Mobility",
+  "title_ar": "تروت للتنقّل",
+  "year": "2025",
+  "client": "Graduation project 1 · E-JUST",
+  "category": "Mobility · Graduation project",
+  "role": "Solo project",
+  "summary": "A smart, eco-friendly horse-drawn carriage for Egypt's North Coast resorts. The frame was generated in Grasshopper and refined with FEA to be light and strong.",
+  "summary_ar": "عربة حنطور ذكية وصديقة للبيئة لمنتجعات الساحل الشمالي في مصر. صُمم هيكلها في Grasshopper ثم حُسّن بتحليل العناصر المحدودة ليكون خفيفًا ومتينًا.",
+  "cover": "/projects/trot-mobility/cover.jpg",
+  "tags": [
+    "Mobility",
+    "Research",
+    "CAD",
+    "Rendering",
+    "Prototyping"
+  ],
+  "sections": [
+    {
+      "heading": "The brief",
+      "body": "North Coast resorts in Egypt are large and spread out, so getting around them usually means a car. The brief was a short-distance transport system that is eco-friendly and human-centred, serves both tourists and resort staff, and cuts the need for private cars.\n\nThe answer combines a physical product with a supporting system, inspired by the traditional horse carriage.",
+      "images": [
+        {
+          "src": "/projects/trot-mobility/sketches.jpg",
+          "caption": "Idea sketches"
+        }
+      ]
+    },
+    {
+      "heading": "The ride",
+      "body": "- The seats flip, so riders can face the view.\n- A controller talks to an autonomous AI system to make the ride more fun.\n- A collet lets the horse be released quickly, so horses can be swapped between stops for breaks.",
+      "images": [
+        {
+          "src": "/projects/trot-mobility/flip-seats.jpg",
+          "caption": "Flip seats (concept visual)"
+        },
+        {
+          "src": "/projects/trot-mobility/collet.jpg",
+          "caption": "Quick-release collet for swapping horses"
+        }
+      ]
+    },
+    {
+      "heading": "A frame grown by parameters",
+      "body": "I modelled the frame with parametric and generative design in Grasshopper, then used FEA results to optimise the geometry for the lowest weight and the most strength.",
+      "images": [
+        {
+          "src": "/projects/trot-mobility/frame-study.jpg",
+          "caption": "Frame studies"
+        },
+        {
+          "src": "/projects/trot-mobility/grasshopper.jpg",
+          "caption": "Grasshopper definition"
+        },
+        {
+          "src": "/projects/trot-mobility/horse-sim.jpg",
+          "caption": "Frame and horse set-up"
+        }
+      ]
+    },
+    {
+      "heading": "Prototype",
+      "body": "I also built a physical prototype. Photos will be added here soon.\n\nSupervised by Dr. Ahmed Romouzy, Eng. Dina Nabil and Eng. Rana Yehia.",
+      "images": []
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/projects/trot-mobility/concept-1.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/trot-mobility/concept-2.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/trot-mobility/concept-3.jpg",
+      "caption": ""
+    }
+  ]
+}

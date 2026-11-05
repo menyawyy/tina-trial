@@ -1,0 +1,79 @@
+{
+  "title": "Pizzira",
+  "title_ar": "بيتزيرا",
+  "year": "",
+  "client": "Industrial Design Studio 2 · E-JUST",
+  "category": "Food truck · Vehicle concept",
+  "role": "Solo project",
+  "summary": "A mobile pizza truck built on a vintage Volkswagen van. The pizza-slice roof lifts open to reveal a compact kitchen.",
+  "summary_ar": "عربة بيتزا متنقلة مبنية على ميكروباص فولكس فاجن كلاسيكي. يرتفع سقف على شكل شريحة بيتزا ليكشف مطبخًا صغيرًا متكاملًا.",
+  "cover": "/projects/pizzira/cover.jpg",
+  "tags": [
+    "Mobility",
+    "CAD",
+    "Rendering",
+    "Sketching"
+  ],
+  "sections": [
+    {
+      "heading": "The idea",
+      "body": "Pizzira turns the classic food truck into a moving pizza experience. The design focuses on compact efficiency, modular transformation and eye-catching looks, bringing fresh pizza and fun to city streets and events.",
+      "images": [
+        {
+          "src": "/projects/pizzira/sketches.jpg",
+          "caption": "Early sketches"
+        }
+      ]
+    },
+    {
+      "heading": "Transformation",
+      "body": "The pizza roof opens upward to make room for the kitchen and serving counter, while the side view keeps the iconic pizza-slice branding and a compact service layout.",
+      "images": [
+        {
+          "src": "/projects/pizzira/open.jpg",
+          "caption": "Open for service"
+        },
+        {
+          "src": "/projects/pizzira/iso-open.jpg",
+          "caption": "Isometric view of the opening roof and workflow"
+        },
+        {
+          "src": "/projects/pizzira/side-open.jpg",
+          "caption": "Kitchen layout"
+        }
+      ]
+    },
+    {
+      "heading": "Drawings",
+      "body": "Brand colours: orange #FF6102, white and black.\n\nSupervised by Dr. Ahmed Romouzy and T.A. Endy Ahmed.",
+      "images": [
+        {
+          "src": "/projects/pizzira/drawings.jpg",
+          "caption": "Front, side and top drawings with main dimensions"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/projects/pizzira/street-2.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/pizzira/open-2.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/pizzira/side.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/pizzira/front.jpg",
+      "caption": ""
+    },
+    {
+      "src": "/projects/pizzira/top.jpg",
+      "caption": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+import type { CmsProject } from '../../lib/data';
+interface Props { data?: CmsProject | null }
+const { data } = Astro.props;
+const facts = data ? ([['Year', 'year'], ['Client', 'client'], ['Role', 'role'], ['Category', 'category']] as const).filter(([, k]) => (data as any)[k]) : [];
+---
+{data && (
+<div class="sheet">
+	<p class="eyebrow">Case study</p>
+	<h1 data-tina-field={tinaField(data, 'title')}>{data.title}</h1>
+	{data.title_ar && <p class="ar ar-title" lang="ar" dir="rtl" data-tina-field={tinaField(data, 'title_ar')}>{data.title_ar}</p>}
+	<dl class="facts">{facts.map(([label, k]) => <div data-tina-field={tinaField(data, k)}><dt>{label}</dt><dd>{(data as any)[k]}</dd></div>)}</dl>
+	{data.tags && <p class="chips" data-tina-field={tinaField(data, 'tags')}>{data.tags.map((t) => <span>{t}</span>)}</p>}
+	<p class="lead" data-tina-field={tinaField(data, 'summary')}>{data.summary}</p>
+	{data.summary_ar && <p class="lead ar" lang="ar" dir="rtl" data-tina-field={tinaField(data, 'summary_ar')}>{data.summary_ar}</p>}
+	{data.cover && <figure data-tina-field={tinaField(data, 'cover')}><img src={data.cover} alt={data.title} /></figure>}
+	{(data.sections ?? []).map((s) => s && (
+		<section>
+			<h2 data-tina-field={tinaField(s, 'heading')}>{s.heading}</h2>
+			<p data-tina-field={tinaField(s, 'body')}>{s.body}</p>
+			{(s.images ?? []).map((im) => im && <figure data-tina-field={tinaField(im, 'src')}><img src={im.src ?? ''} alt={im.caption ?? ''} />{im.caption && <figcaption data-tina-field={tinaField(im, 'caption')}>{im.caption}</figcaption>}</figure>)}
+		</section>
+	))}
+	{(data.gallery ?? []).length > 0 && <section><h2>Gallery</h2><div class="gal">{(data.gallery ?? []).map((g) => g && <img data-tina-field={tinaField(g, 'src')} src={g.src ?? ''} alt="" />)}</div></section>}
+</div>
+)}
