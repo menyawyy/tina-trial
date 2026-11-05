@@ -1,5 +1,5 @@
 {
-  "title": "Z Bollard",
+  "title": "Z Bollard ",
   "title_ar": "عمود Z",
   "year": "2025",
   "client": "3 Brothers for Lighting · internship",
@@ -30,6 +30,10 @@
           "caption": "The assembly taken apart, rendered from the CAD model"
         }
       ]
+    },
+    {
+      "heading": "bla  bla",
+      "body": "lorem ipsum\n"
     }
   ],
   "gallery": [
